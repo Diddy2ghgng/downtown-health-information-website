@@ -1,0 +1,118 @@
+/* Updated style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+}
+
+.hero {
+    background: url('images/home-bg.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #0288d1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.illness {
+    background: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    transition: transform 0.3s ease-in-out;
+}
+
+.illness:hover {
+    transform: scale(1.03);
+}
+
+.illness-content {
+    display: none;
+    padding: 10px;
+}
+
+.illness-content.active {
+    display: block;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0288d1;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.toggle-btn:hover {
+    background-color: #026aa7;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer {
+    background: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
